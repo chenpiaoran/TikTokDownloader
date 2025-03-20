@@ -217,9 +217,9 @@ class TikTokDownloader:
             f"{self.LINE}\n\n\n{self.NAME.center(self.WIDTH)}\n\n\n{self.LINE}\n",
             style=MASTER,
         )
-        self.console.print(_("项目地址: {}").format(REPOSITORY), style=MASTER)
-        self.console.print(_("项目文档: {}").format(DOCUMENTATION_URL), style=MASTER)
-        self.console.print(_("开源许可: {}\n").format(LICENCE), style=MASTER)
+        self.console.print(_("制作: {}").format(程飘燃), style=MASTER)
+        self.console.print(_("项目文档: {}").format(暂无), style=MASTER)
+        self.console.print(_("日期: {}\n").format(20250320), style=MASTER)
 
     def check_config(self):
         self.recorder = DownloadRecorder(
