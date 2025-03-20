@@ -340,7 +340,7 @@ class TikTokDownloader:
     async def __write_cookie(self, index=0):
         self.console.print(
             _("Cookie 获取教程：")
-            + "https://github.com/JoeanAmier/TikTokDownloader/blob/master/docs/Cookie%E8%8E%B7%E5%8F%96%E6"
+            + "https://www.baidu.com"
               "%95%99%E7%A8%8B.md"
         )
         if self.cookie.run(self.PLATFORM[index], index):
