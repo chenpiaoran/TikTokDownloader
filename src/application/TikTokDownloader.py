@@ -182,7 +182,7 @@ class TikTokDownloader:
             await self.__init_language()
             self.console.print(_("免责声明\n"), style=MASTER)
             if (
-                    self.console.input(_("是否已仔细阅读上述免责声明(YES/NO): ")).upper()
+                    self.console.input(_("是否已仔细阅读上述免责声明(Y/N): ")).upper()
                     != "YES"
             ):
                 return False
